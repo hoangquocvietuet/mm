@@ -1,0 +1,27 @@
+{
+  "name": "hardhat3-alpha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "type": "module",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "3.0.0-next.8",
+    "@nomicfoundation/hardhat-toolbox-viem": "4.0.0-next.8",
+    "@types/node": "^22.15.21",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "hardhat": "3.0.0-next.8",
+    "typescript": "~5.5.4",
+    "viem": "^2.30.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.3.0",
+    "dotenv": "^16.5.0"
+  }
+}
